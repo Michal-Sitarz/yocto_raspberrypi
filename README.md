@@ -40,7 +40,7 @@ Confirm new layer with:
 ### _Altering build configuration_
 
 Open configuration file in your favourite eidtor (e.g. Nano, Vim, etc.)  
-` nano conf/local.conf`
+`nano conf/local.conf`
 
 Find this line:  
 `MACHINE ??= "qemux86-64"`  
