@@ -1,0 +1,86 @@
+64870 15:04:42.200220 --- Starting bitbake server pid 64870 at 2024-05-03 15:04:42.200198 ---
+64870 15:04:42.201625 Started bitbake server pid 64870
+64870 15:04:42.201950 Entering server connection loop
+64870 15:04:42.202131 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+64870 15:04:42.203135 Processing Client
+64870 15:04:42.203213 Connecting Client
+64870 15:04:42.203655 Running command ['setFeatures', [2, 1]]
+64870 15:04:42.203775 Command Completed
+64870 15:04:42.204686 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': None, 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'BB_ENV_PASSTHROUGH_ADDITIONS': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXA9Es9J/agent.1400', 'SSH_AGENT_PID': '1528', 'PWD': '/home/shifu/new/yocto_raspberrypi/build-dir', 'LOGNAME': 'shifu', 'HOME': '/home/shifu', 'BBPATH': '/home/shifu/new/yocto_raspberrypi/build-dir', 'USER': 'shifu', 'PATH': '/home/shifu/new/yocto_raspberrypi/poky/scripts:/home/shifu/new/yocto_raspberrypi/poky/bitbake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/shifu/.dotnet/tools', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/SilverHP:@/tmp/.ICE-unix/1668,unix/SilverHP:/tmp/.ICE-unix/1668', 'WINDOWID': '73400327', 'QT_ACCESSIBILITY': '1', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.5;DP-1=1.5;HDMI-1=1.5;DP-2=1.5;HDMI-2=1.5;', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/home/shifu/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LANGUAGE': 'en_GB:en', 'SHELL_SESSION_ID': 'b252fc304530487ebd9e8544856563ce', 'DESKTOP_SESSION': 'plasma', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/shifu/.gtkrc:/home/shifu/.config/gtkrc', 'XCURSOR_SIZE': '24', 'XDG_SEAT': 'seat0', 'XDG_SESSION_DESKTOP': 'KDE', 'XDG_SESSION_TYPE': 'x11', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'SYSTEMD_EXEC_PID': '1378', 'XAUTHORITY': '/home/shifu/.Xauthority', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/shifu/.gtkrc-2.0:/home/shifu/.config/gtkrc-2.0', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_GB.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'KDE', 'KONSOLE_DBUS_SERVICE': ':1.264', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'PROFILEHOME': '', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KONSOLE_VERSION': '211203', 'KDE_SESSION_UID': '1000', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/shifu/new/yocto_raspberrypi/poky/bitbake/lib:', 'TERM': 'xterm-256color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'COLORFGBG': '15;0', 'KDE_SESSION_VERSION': '5', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'DISPLAY': ':0', 'SHLVL': '1', 'MOZ_USE_XINPUT2': '1', 'XDG_VTNR': '1', 'XDG_SESSION_ID': '3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'XCURSOR_THEME': 'breeze_cursors', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'KDE_FULL_SESSION': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUILDDIR': '/home/shifu/new/yocto_raspberrypi/build-dir', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/shifu/new/yocto_raspberrypi', 'KONSOLE_DBUS_WINDOW': '/Windows/1', '_': '/home/shifu/new/yocto_raspberrypi/poky/bitbake/bin/bitbake-layers'}, ['/home/shifu/new/yocto_raspberrypi/poky/bitbake/bin/bitbake-layers', 'add-layer', '../meta-raspberrypi']]
+64870 15:04:42.639359 Command Completed
+64870 15:04:42.639984 Running command ['parseConfiguration']
+64870 15:04:42.641046 Command Completed
+64870 15:04:42.641283 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+64870 15:04:42.641630 Command Completed
+64870 15:04:42.641838 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+64870 15:04:42.642089 Command Completed
+64870 15:04:42.664262 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+64870 15:04:42.664618 Command Completed
+64870 15:04:42.664865 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+64870 15:04:42.665202 Command Completed
+64870 15:04:42.667257 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+64870 15:04:42.667547 Command Completed
+64870 15:04:42.667772 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+64870 15:04:42.668042 Command Completed
+64870 15:04:42.671135 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+64870 15:04:42.671426 Command Completed
+64870 15:04:42.671656 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+64870 15:04:42.671925 Command Completed
+64870 15:04:42.673955 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+64870 15:04:42.674234 Command Completed
+64870 15:04:42.674458 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+64870 15:04:42.674719 Command Completed
+64870 15:04:42.678290 Running command ['parseConfiguration']
+64870 15:04:42.932237 Command Completed
+64870 15:04:42.932672 Running command ['clientComplete']
+64870 15:04:42.932808 Command Completed
+64870 15:04:42.933349 Processing Client
+64870 15:04:42.933452 Disconnecting Client
+64870 15:04:42.933705 No timeout, exiting.
+64870 15:04:43.034170 Exiting
+64870 15:04:43.044609 Original lockfile contents: ['64870\n']
+64870 15:04:43.053178 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/shifu/new/yocto_raspberrypi/build-dir/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+64921 15:04:50.977484 --- Starting bitbake server pid 64921 at 2024-05-03 15:04:50.977455 ---
+64921 15:04:50.978537 Started bitbake server pid 64921
+64921 15:04:50.978794 Entering server connection loop
+64921 15:04:50.979122 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+64921 15:04:50.980163 Processing Client
+64921 15:04:50.980244 Connecting Client
+64921 15:04:50.980591 Running command ['setFeatures', [2, 1]]
+64921 15:04:50.980690 Command Completed
+64921 15:04:50.981687 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': None, 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'BB_ENV_PASSTHROUGH_ADDITIONS': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXA9Es9J/agent.1400', 'SSH_AGENT_PID': '1528', 'PWD': '/home/shifu/new/yocto_raspberrypi/build-dir', 'LOGNAME': 'shifu', 'HOME': '/home/shifu', 'BBPATH': '/home/shifu/new/yocto_raspberrypi/build-dir', 'USER': 'shifu', 'PATH': '/home/shifu/new/yocto_raspberrypi/poky/scripts:/home/shifu/new/yocto_raspberrypi/poky/bitbake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/shifu/.dotnet/tools', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/SilverHP:@/tmp/.ICE-unix/1668,unix/SilverHP:/tmp/.ICE-unix/1668', 'WINDOWID': '73400327', 'QT_ACCESSIBILITY': '1', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.5;DP-1=1.5;HDMI-1=1.5;DP-2=1.5;HDMI-2=1.5;', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/home/shifu/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LANGUAGE': 'en_GB:en', 'SHELL_SESSION_ID': 'b252fc304530487ebd9e8544856563ce', 'DESKTOP_SESSION': 'plasma', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/shifu/.gtkrc:/home/shifu/.config/gtkrc', 'XCURSOR_SIZE': '24', 'XDG_SEAT': 'seat0', 'XDG_SESSION_DESKTOP': 'KDE', 'XDG_SESSION_TYPE': 'x11', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'SYSTEMD_EXEC_PID': '1378', 'XAUTHORITY': '/home/shifu/.Xauthority', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/shifu/.gtkrc-2.0:/home/shifu/.config/gtkrc-2.0', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_GB.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'KDE', 'KONSOLE_DBUS_SERVICE': ':1.264', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'PROFILEHOME': '', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KONSOLE_VERSION': '211203', 'KDE_SESSION_UID': '1000', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/shifu/new/yocto_raspberrypi/poky/bitbake/lib:', 'TERM': 'xterm-256color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'COLORFGBG': '15;0', 'KDE_SESSION_VERSION': '5', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'DISPLAY': ':0', 'SHLVL': '1', 'MOZ_USE_XINPUT2': '1', 'XDG_VTNR': '1', 'XDG_SESSION_ID': '3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'XCURSOR_THEME': 'breeze_cursors', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'KDE_FULL_SESSION': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUILDDIR': '/home/shifu/new/yocto_raspberrypi/build-dir', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/shifu/new/yocto_raspberrypi', 'KONSOLE_DBUS_WINDOW': '/Windows/1', '_': '/home/shifu/new/yocto_raspberrypi/poky/bitbake/bin/bitbake-layers'}, ['/home/shifu/new/yocto_raspberrypi/poky/bitbake/bin/bitbake-layers', 'show-layers']]
+64921 15:04:51.338739 Command Completed
+64921 15:04:51.339365 Running command ['parseConfiguration']
+64921 15:04:51.340528 Command Completed
+64921 15:04:51.340855 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+64921 15:04:51.341150 Command Completed
+64921 15:04:51.341451 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+64921 15:04:51.341679 Command Completed
+64921 15:04:51.346365 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+64921 15:04:51.346663 Command Completed
+64921 15:04:51.346890 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+64921 15:04:51.347153 Command Completed
+64921 15:04:51.348618 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+64921 15:04:51.348823 Command Completed
+64921 15:04:51.349045 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+64921 15:04:51.349301 Command Completed
+64921 15:04:51.351867 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+64921 15:04:51.352044 Command Completed
+64921 15:04:51.352223 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+64921 15:04:51.352401 Command Completed
+64921 15:04:51.353760 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+64921 15:04:51.353970 Command Completed
+64921 15:04:51.354160 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+64921 15:04:51.354387 Command Completed
+64921 15:04:51.355561 Running command ['getLayerPriorities']
+64921 15:04:51.355879 Command Completed
+64921 15:04:51.356806 Running command ['clientComplete']
+64921 15:04:51.356895 Command Completed
+64921 15:04:51.357588 Processing Client
+64921 15:04:51.357675 Disconnecting Client
+64921 15:04:51.357912 No timeout, exiting.
+64921 15:04:51.458893 Exiting
+64921 15:04:51.462696 Original lockfile contents: ['64921\n']
+64921 15:04:51.471266 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/shifu/new/yocto_raspberrypi/build-dir/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
