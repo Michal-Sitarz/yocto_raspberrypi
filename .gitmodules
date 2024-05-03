@@ -1,0 +1,6 @@
+[submodule "poky"]
+	path = poky
+	url = /home/shifu/new/yocto_raspberrypi/poky/
+[submodule "meta-raspberrypi"]
+	path = meta-raspberrypi
+	url = /home/shifu/new/yocto_raspberrypi/meta-raspberrypi/
