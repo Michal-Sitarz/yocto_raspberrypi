@@ -3,7 +3,7 @@
 Version/branch: _Kirkstone_
 
 ## Clone it
-To clone the repo, pull all the git submodules, while doing so:  
+To clone the repo, include pulling all the git submodules while doing so:  
 `git clone --recurse-submodules https://github.com/Michal-Sitarz/yocto_raspberrypi.git`
 
 To prepare your host machine to use Yocto build system, follow: https://docs.yoctoproject.org/ref-manual/system-requirements.html  
@@ -13,7 +13,7 @@ Most modern Ubuntu distros should have all the basic tools included already.
 
 After cloning the repo, build it using Yocto build tools. 
 
-To do that initialize build environment:  
+To do that initialize build environment first:  
 `source poky/oe-init-build-env build-dir`
 
 ### _Running the build_
